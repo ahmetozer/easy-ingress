@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add nginx openssl
+RUN apk add nginx openssl nginx-mod-http-headers-more
 
 WORKDIR /srv
 COPY . .
